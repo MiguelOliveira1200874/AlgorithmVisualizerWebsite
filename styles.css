@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+nav button, nav select, nav input {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #367c39;
+    color: white;
+}
+
+#arrayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow-x: auto;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+}
+
+.arrayElement {
+    background-color: #4CAF50;
+    margin: 2px;
+    width: 20px;
+}
+
+#algorithmDescription {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+#delayRange {
+    -webkit-appearance: none; /* Override default look */
+    width: 100%; /* Full-width */
+    background: #ddd; /* Grey background */
+}
+
+#delayRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#delayRange::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
